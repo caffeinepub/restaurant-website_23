@@ -1,0 +1,140 @@
+{
+  "kind": "build_request",
+  "title": "Create restaurant website with menu, about, and contact pages",
+  "projectName": "Our Restaurant",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a home page displaying restaurant welcome message 'Welcome to Our Restaurant 🍽️', tagline 'We serve fresh, tasty, and affordable food every day', description about being a perfect place for family, friends, and food lovers, using fresh ingredients and cooking with care, with service highlights: dine in or take away, friendly service, clean and comfortable environment, and a call-to-action 'Visit us today and enjoy delicious food!'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Welcome to Our Restaurant 🍽️",
+          "We serve fresh, tasty, and affordable food every day",
+          "Visit us today and enjoy delicious food!"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Home page displays the welcome heading with emoji",
+        "Service highlights are displayed with checkmark emojis",
+        "Call-to-action message is prominently displayed"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create a menu page with three sections: Main Dishes (Chicken Biryani $5, Beef Curry $6, Fried Rice $4, Chicken Burger $4), Fast Food (Pizza $7, French Fries $2, Sandwich $3), and Drinks (Cold Drinks $1, Fresh Juice $2, Water $0.5), with all prices editable by admin",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Chicken Biryani – $5",
+          "Beef Curry – $6",
+          "Pizza – $7",
+          "Prices can be edited anytime"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Menu displays three distinct sections with category emojis",
+        "All menu items display name and price",
+        "Admin can edit prices for any menu item",
+        "Price changes persist after page reload"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create an About Us page describing the restaurant as a local restaurant serving the community with love and care, with goals to provide fresh and quality food, good taste at a fair price, and friendly customer service, including the message 'We believe good food brings people together' and 'Thank you for choosing our restaurant'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "We are a local restaurant serving our community with love and care",
+          "We believe good food brings people together",
+          "Thank you for choosing our restaurant"
+        ]
+      },
+      "acceptanceCriteria": [
+        "About page displays the restaurant description",
+        "Three main goals are listed clearly",
+        "Closing messages are displayed"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create a contact page displaying address placeholder 'Your Street Name, Your Area, Your City', phone number placeholder '+880 1XXXXXXXXX', opening hours 'Everyday: 10:00 AM – 10:00 PM', and email placeholder 'yourrestaurant@email.com', with all contact information editable by admin",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Your Street Name, Your Area, Your City",
+          "+880 1XXXXXXXXX",
+          "Everyday: 10:00 AM – 10:00 PM",
+          "yourrestaurant@email.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact page displays all four contact information fields with appropriate icons",
+        "Admin can edit address, phone, hours, and email",
+        "Updated contact information persists after page reload"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Implement navigation to allow users to switch between Home, Menu, About Us, and Contact pages",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Navigation menu is visible on all pages",
+        "Users can navigate between all four pages",
+        "Active page is visually indicated in navigation"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Design a warm, inviting visual theme for a family-friendly restaurant with a cohesive color palette using warm earth tones (amber, terracotta, cream), readable typography, and layout that emphasizes food imagery and hospitality",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color scheme uses warm, welcoming tones throughout",
+        "Typography is clear and readable for menu items and content",
+        "Layout creates an inviting, family-friendly atmosphere"
+      ]
+    }
+  ],
+  "constraints": [
+    "All pricing and contact information must be stored in backend and editable",
+    "Use single-actor Motoko architecture for backend"
+  ],
+  "nonGoals": [
+    "Online ordering or payment system",
+    "User accounts or authentication",
+    "Reservation system",
+    "Real-time order tracking"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Appetizing restaurant hero banner showing diverse fresh food dishes in warm lighting (hero-banner.dim_1200x400.png)",
+      "Elegant food icon for main dishes section with bowl and steam (main-dishes-icon.dim_128x128.png)",
+      "Fast food icon showing burger and fries in playful style (fast-food-icon.dim_128x128.png)",
+      "Refreshing drinks icon with glass and citrus elements (drinks-icon.dim_128x128.png)"
+    ],
+    "edits": []
+  }
+}

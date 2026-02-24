@@ -1,0 +1,117 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-home-page-displaying-restaurant-welcome-message-welcome-to-our-restaurant-tagline-we-serve-fresh-tasty-and-affordable-food-every-day-description-about-being-a-perfect-place-for-family-friends-and-food-lovers-using-fresh-ingredients-and-cooking-with-care-with-service-highlights-dine-in-or-take-away-friendly-service-clean-and-comfortable-environment-and-a-call-to-action-visit-us-today-and-enjoy-delicious-food",
+      "featureTitle": "Create a home page displaying restaurant welcome message 'Welcome to Our Restaurant 🍽️', tagline 'We serve fresh, tasty, and affordable food every day', description about being a perfect place for family, friends, and food lovers, using fresh ingredients and cooking with care, with service highlights: dine in or take away, friendly service, clean and comfortable environment, and a call-to-action 'Visit us today and enjoy delicious food!'",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-menu-page-with-three-sections-main-dishes-chicken-biryani-5-beef-curry-6-fried-rice-4-chicken-burger-4-fast-food-pizza-7-french-fries-2-sandwich-3-and-drinks-cold-drinks-1-fresh-juice-2-water-0-5-with-all-prices-editable-by-admin",
+      "featureTitle": "Create a menu page with three sections: Main Dishes (Chicken Biryani $5, Beef Curry $6, Fried Rice $4, Chicken Burger $4), Fast Food (Pizza $7, French Fries $2, Sandwich $3), and Drinks (Cold Drinks $1, Fresh Juice $2, Water $0.5), with all prices editable by admin",
+      "files": [
+        "frontend/src/components/MenuItemCard.tsx",
+        "frontend/src/pages/Menu.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-an-about-us-page-describing-the-restaurant-as-a-local-restaurant-serving-the-community-with-love-and-care-with-goals-to-provide-fresh-and-quality-food-good-taste-at-a-fair-price-and-friendly-customer-service-including-the-message-we-believe-good-food-brings-people-together-and-thank-you-for-choosing-our-restaurant",
+      "featureTitle": "Create an About Us page describing the restaurant as a local restaurant serving the community with love and care, with goals to provide fresh and quality food, good taste at a fair price, and friendly customer service, including the message 'We believe good food brings people together' and 'Thank you for choosing our restaurant'",
+      "files": [
+        "frontend/src/pages/About.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-contact-page-displaying-address-placeholder-your-street-name-your-area-your-city-phone-number-placeholder-880-1xxxxxxxxx-opening-hours-everyday-10-00-am-10-00-pm-and-email-placeholder-yourrestaurant-email-com-with-all-contact-information-editable-by-admin",
+      "featureTitle": "Create a contact page displaying address placeholder 'Your Street Name, Your Area, Your City', phone number placeholder '+880 1XXXXXXXXX', opening hours 'Everyday: 10:00 AM – 10:00 PM', and email placeholder 'yourrestaurant@email.com', with all contact information editable by admin",
+      "files": [
+        "frontend/src/pages/Contact.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-navigation-to-allow-users-to-switch-between-home-menu-about-us-and-contact-pages",
+      "featureTitle": "Implement navigation to allow users to switch between Home, Menu, About Us, and Contact pages",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Navigation.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-design-a-warm-inviting-visual-theme-for-a-family-friendly-restaurant-with-a-cohesive-color-palette-using-warm-earth-tones-amber-terracotta-cream-readable-typography-and-layout-that-emphasizes-food-imagery-and-hospitality",
+      "featureTitle": "Design a warm, inviting visual theme for a family-friendly restaurant with a cohesive color palette using warm earth tones (amber, terracotta, cream), readable typography, and layout that emphasizes food imagery and hospitality",
+      "files": [
+        "frontend/src/components/Layout.tsx",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

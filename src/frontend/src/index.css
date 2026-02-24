@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        /* Warm cream background */
+        --background: 0.98 0.015 45;
+        --foreground: 0.25 0.02 30;
+        /* Warm terracotta card */
+        --card: 1 0.01 45;
+        --card-foreground: 0.25 0.02 30;
+        --popover: 1 0.01 45;
+        --popover-foreground: 0.25 0.02 30;
+        /* Rich amber primary */
+        --primary: 0.55 0.15 45;
+        --primary-foreground: 0.98 0.01 45;
+        /* Soft beige secondary */
+        --secondary: 0.92 0.02 45;
+        --secondary-foreground: 0.35 0.02 30;
+        /* Muted warm gray */
+        --muted: 0.90 0.015 45;
+        --muted-foreground: 0.50 0.02 30;
+        /* Warm accent */
+        --accent: 0.88 0.03 40;
+        --accent-foreground: 0.30 0.02 30;
+        /* Warm red destructive */
+        --destructive: 0.55 0.22 25;
+        --destructive-foreground: 0.98 0.01 45;
+        /* Subtle borders */
+        --border: 0.88 0.02 45;
+        --input: 0.88 0.02 45;
+        --ring: 0.55 0.15 45;
+        --chart-1: 0.60 0.18 45;
+        --chart-2: 0.65 0.15 30;
+        --chart-3: 0.50 0.12 60;
+        --chart-4: 0.70 0.20 25;
+        --chart-5: 0.55 0.16 50;
+    }
+
+    .dark {
+        /* Deep warm brown background */
+        --background: 0.20 0.03 30;
+        --foreground: 0.95 0.015 45;
+        /* Slightly lighter card */
+        --card: 0.25 0.03 30;
+        --card-foreground: 0.95 0.015 45;
+        --popover: 0.28 0.03 30;
+        --popover-foreground: 0.95 0.015 45;
+        /* Bright amber primary */
+        --primary: 0.75 0.18 45;
+        --primary-foreground: 0.20 0.03 30;
+        /* Warm gray secondary */
+        --secondary: 0.35 0.03 30;
+        --secondary-foreground: 0.95 0.015 45;
+        /* Muted warm */
+        --muted: 0.32 0.03 30;
+        --muted-foreground: 0.65 0.02 35;
+        /* Warm accent */
+        --accent: 0.45 0.05 35;
+        --accent-foreground: 0.95 0.015 45;
+        /* Warm red destructive */
+        --destructive: 0.60 0.20 25;
+        --destructive-foreground: 0.20 0.03 30;
+        /* Subtle borders */
+        --border: 1 0 0 / 12%;
+        --input: 1 0 0 / 18%;
+        --ring: 0.65 0.15 45;
+        --chart-1: 0.65 0.20 45;
+        --chart-2: 0.70 0.18 30;
+        --chart-3: 0.55 0.15 60;
+        --chart-4: 0.75 0.22 25;
+        --chart-5: 0.60 0.18 50;
+    }
+
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    }
+}

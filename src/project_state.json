@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Restaurant website with home, menu, about, and contact pages",
+  "architectural_notes": [
+    "Multi-page restaurant website structure",
+    "Menu prices should be easily editable",
+    "Navigation between Home, Menu, About, and Contact pages"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Appetizing restaurant hero banner showing diverse fresh food dishes in warm lighting (hero-banner.dim_1200x400.png)\n- Elegant food icon for main dishes section with bowl and steam (main-dishes-icon.dim_128x128.png)\n- Fast food icon showing burger and fries in playful style (fast-food-icon.dim_128x128.png)\n- Refreshing drinks icon with glass and citrus elements (drinks-icon.dim_128x128.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-home-page-displaying-restaurant-welcome-message-welcome-to-our-restaurant-tagline-we-serve-fresh-tasty-and-affordable-food-every-day-description-about-being-a-perfect-place-for-family-friends-and-food-lovers-using-fresh-ingredients-and-cooking-with-care-with-service-highlights-dine-in-or-take-away-friendly-service-clean-and-comfortable-environment-and-a-call-to-action-visit-us-today-and-enjoy-delicious-food",
+      "title": "Create a home page displaying restaurant welcome message 'Welcome to Our Restaurant 🍽️', tagline 'We serve fresh, tasty, and affordable food every day', description about being a perfect place for family, friends, and food lovers, using fresh ingredients and cooking with care, with service highlights: dine in or take away, friendly service, clean and comfortable environment, and a call-to-action 'Visit us today and enjoy delicious food!'",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-menu-page-with-three-sections-main-dishes-chicken-biryani-5-beef-curry-6-fried-rice-4-chicken-burger-4-fast-food-pizza-7-french-fries-2-sandwich-3-and-drinks-cold-drinks-1-fresh-juice-2-water-0-5-with-all-prices-editable-by-admin",
+      "title": "Create a menu page with three sections: Main Dishes (Chicken Biryani $5, Beef Curry $6, Fried Rice $4, Chicken Burger $4), Fast Food (Pizza $7, French Fries $2, Sandwich $3), and Drinks (Cold Drinks $1, Fresh Juice $2, Water $0.5), with all prices editable by admin",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-us-page-describing-the-restaurant-as-a-local-restaurant-serving-the-community-with-love-and-care-with-goals-to-provide-fresh-and-quality-food-good-taste-at-a-fair-price-and-friendly-customer-service-including-the-message-we-believe-good-food-brings-people-together-and-thank-you-for-choosing-our-restaurant",
+      "title": "Create an About Us page describing the restaurant as a local restaurant serving the community with love and care, with goals to provide fresh and quality food, good taste at a fair price, and friendly customer service, including the message 'We believe good food brings people together' and 'Thank you for choosing our restaurant'",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-page-displaying-address-placeholder-your-street-name-your-area-your-city-phone-number-placeholder-880-1xxxxxxxxx-opening-hours-everyday-10-00-am-10-00-pm-and-email-placeholder-yourrestaurant-email-com-with-all-contact-information-editable-by-admin",
+      "title": "Create a contact page displaying address placeholder 'Your Street Name, Your Area, Your City', phone number placeholder '+880 1XXXXXXXXX', opening hours 'Everyday: 10:00 AM – 10:00 PM', and email placeholder 'yourrestaurant@email.com', with all contact information editable by admin",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-navigation-to-allow-users-to-switch-between-home-menu-about-us-and-contact-pages",
+      "title": "Implement navigation to allow users to switch between Home, Menu, About Us, and Contact pages",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-warm-inviting-visual-theme-for-a-family-friendly-restaurant-with-a-cohesive-color-palette-using-warm-earth-tones-amber-terracotta-cream-readable-typography-and-layout-that-emphasizes-food-imagery-and-hospitality",
+      "title": "Design a warm, inviting visual theme for a family-friendly restaurant with a cohesive color palette using warm earth tones (amber, terracotta, cream), readable typography, and layout that emphasizes food imagery and hospitality",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Home page with restaurant welcome, services, and call-to-action",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Menu page with main dishes, fast food, and drinks sections with pricing",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "About Us page describing restaurant values and goals",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Contact page with address, phone, hours, and email",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Restaurant Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,14 @@
+{
+  "frontend/src/App.tsx": "Main application component that sets up TanStack Router with routes for Home, Menu, About, and Contact pages, all wrapped in a Layout component.",
+  "frontend/src/components/Layout.tsx": "Layout wrapper component that provides consistent structure with Navigation header, main content area with Outlet, and Footer across all pages.",
+  "frontend/src/components/Navigation.tsx": "Responsive navigation header with restaurant branding, desktop and mobile menu navigation, and active route highlighting.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright, attribution to caffeine.ai with UTM tracking, and a heart icon.",
+  "frontend/src/pages/Home.tsx": "Home page featuring hero banner image, welcome message, restaurant description, three service highlights with checkmark icons, and call-to-action.",
+  "frontend/src/pages/Menu.tsx": "Menu page displaying three categorized sections (Main Dishes, Fast Food, Drinks) with category icons, menu items fetched from backend, and admin mode toggle for editing prices.",
+  "frontend/src/components/MenuItemCard.tsx": "Reusable card component for displaying individual menu items with name, price, and inline editing capability when in admin mode.",
+  "frontend/src/pages/About.tsx": "About Us page showcasing restaurant description, three goal cards with icons (quality food, fair price, friendly service), and closing messages about community values.",
+  "frontend/src/pages/Contact.tsx": "Contact page displaying address, phone, hours, and email with icons in card layout, plus admin editing capability for all contact fields.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for fetching menu items and contact info, plus mutations for updating menu prices and contact information with automatic cache invalidation.",
+  "frontend/src/index.css": "Global styles with warm earth-tone OKLCH color system (amber, terracotta, cream) for both light and dark modes, creating an inviting restaurant atmosphere.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme with warm color palette, Inter font family, varied border radii, and custom warm shadow for cohesive restaurant design."
+}
